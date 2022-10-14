@@ -11,7 +11,6 @@ include './components/navbar.php';
         <div class="container d-flex flex-column foreground min-vh-100">
           <div class="row align-items-center justify-content-center my-auto">
             <div class="col-lg-10 text-center">
-              <span class="eyebrow text-secondary mb-2">North American Strategy Consulting Ltd</span>
               <h1 class="display-1 fw-bold">Get Funding for your <br>Business.</h1>
               <a href="register" class="btn btn-white rounded-pill">Get Started</a>
             </div>

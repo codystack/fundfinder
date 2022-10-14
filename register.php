@@ -9,7 +9,7 @@ require_once './auth/account.php';
                 <div class="col-md-10 col-lg-8 col-xl-5">
                     <div class="card">
                         <div class="card-header bg-white text-center pb-0">
-                            <h5 class="fs-4">Register</h5>
+                            <h5 class="fs-4">Get Started</h5>
                         </div>
                         
                         <div class="card-body bg-white">
