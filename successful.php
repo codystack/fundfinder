@@ -103,11 +103,6 @@ include './components/header.php';
     <div class="d-flex flex-column container level-3 min-vh-100">
       <div class="row align-items-center justify-content-center my-auto">
         <div class="col-md-10 col-lg-8 col-xl-5">
-            <div class="text-center">
-                <a href="./">
-                    <img src="assets/images/logo/nac-logow.png" width="150" alt="Logo">
-                </a>
-            </div>
             <div class="card">
                 <div class="card-body text-center bg-white">
                     <div class="checkmark">
@@ -123,9 +118,10 @@ include './components/header.php';
                             <circle class="spin" fill="none" stroke="#0f9372" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12.2175,12.2175" cx="80.6" cy="80.6" r="73.9"/>
                         </svg>
                     </div>
-                    <h5 class="fs-4 mt-2">Registration Successful</h5>
-                    <p class="text-dark fw-light fs-6">Hello! <span class="fw-bold"><?php echo $_SESSION['firstName']; ?>,</span> your registration was successful, login with the correct credentials to gain access to the global financial funding. </p>
-                    <a href="close" type="button" class="btn btn-lg btn-dark">Login Account</a>
+
+                    <h5 class="fs-4 mt-2">Application Successful</h5>
+                    <p class="text-dark fw-light fs-6">Hello! <span class="fw-bold"><?php echo $_SESSION['firstName']; ?>,</span> your submission was successful, one of our agents will contact in regards to your financial funding. </p>
+                    <a href="./" type="button" class="btn btn-lg btn-dark">Go Back</a>
                 </div>
             </div>
         </div>

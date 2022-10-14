@@ -60,30 +60,23 @@ if (isset($_POST['register_btn'])) {
     $companyName = $conn->real_escape_string($_POST['companyName']);
     $email = $conn->real_escape_string($_POST['email']);
     $phone = $conn->real_escape_string($_POST['phone']);
-    $userID = 'NAS'.rand(1000, 9999);
+    $amount = $conn->real_escape_string($_POST['amount']);
+    $date = $conn->real_escape_string($_POST['date']);
+    $revenue = $conn->real_escape_string($_POST['revenue']);
 
+    
+    $query = "INSERT INTO getStarted (firstName, lastName, companyName, email, phone, amount, date, revenue) 
+                VALUES('$firstName', '$lastName', '$companyName', '$email', '$phone', '$amount', '$date', '$revenue')";
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
 
-    $check_user_query = "SELECT * FROM users WHERE email='$email'";
-    $result = mysqli_query($conn, $check_user_query);
-    if (mysqli_num_rows($result) > 0) {
-        $_SESSION['error_message'] = "User already exist!";
-        echo "<meta http-equiv='refresh' content='5; URL=register'>";
+        $_SESSION['email'] = $email;
+        $_SESSION['firstName'] = $firstName;
+        $_SESSION['lastName'] = $lastName;
+
+        header('location: successful');
     }else {
-        // Finally, register user if there are no errors in the form
-        $password = sha1($password); //encrypt the password before saving in the database
-        $query = "INSERT INTO getStarted (firstName, lastName, companyName, email, phone, password, userID, status) 
-  			        VALUES('$firstName', '$lastName', '$companyName', '$email', '$phone', '$password', '$userID', 'Active')";
-        mysqli_query($conn, $query);
-        if (mysqli_affected_rows($conn) > 0) {
-
-            $_SESSION['email'] = $email;
-            $_SESSION['firstName'] = $firstName;
-            $_SESSION['lastName'] = $lastName;
-
-            header('location: successful');
-        }else {
-            $_SESSION['error_message']    = "Error processing registration".mysqli_error($conn);
-            echo "<meta http-equiv='refresh' content='5; URL=register'>";
-        }
+        $_SESSION['error_message']    = "Error processing registration".mysqli_error($conn);
+        echo "<meta http-equiv='refresh' content='5; URL=register'>";
     }
 }
