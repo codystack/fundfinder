@@ -28,19 +28,12 @@
         <li class="nav-item">
           <a class="nav-link fs-4" href="contact">Contact us</a>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="terms">Terms of use</a>
-        </li>
       </ul>
     </div>
     <div class="offcanvas-footer">
       <ul class="list-inline">
-        <li class="list-inline-item">
-            <a href="login" class="btn btn-outline-dark">Login</a>
-        </li>
         <li class="list-inline-item ms-1">
-            <a href="register" class="btn btn-dark">Register</a>
+            <a href="register" class="btn btn-dark">Get Started</a>
         </li>
       </ul>
     </div>

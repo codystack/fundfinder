@@ -78,14 +78,30 @@ include './components/navbar.php';
       </section>
 
 
-      <section class="bg-black py-10">
+      <section class="bg-black py-10 overflow-hidden">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <h2 class="fw-bold text-white"><span class="d-lg-block">Wide Range of Industries and Geographies </h2>
-              <p class="text-white">Nas Consulting Inc. is industry agnostic in many sectors, we have experiences with transaction with North America, Europe, Asia, Latin America,the middle East, Australia and Africa.</p>
-              <h3 class="text-white">Sectors for Any Business</h3>
-              <p class="text-white">Nas Consulting Inc. offers a comprehensive portfolio of financing products to meet any business needs.</p>
+          <div class="row justify-content-center position-relative">
+            <div class="col-xl-10 text-white">
+              <h4 class="fw-bold">WHAT IS FUND FINDER PROGRAM?</h4>
+              <p class="fs-5">From personal loans to business loans, we assist companies to access best lenders to fund them! We provide one of the nation's most credible and largest finance information marketplaces, helping business owners and individuals get options to finance business operations.</p>
+              <p class="fs-5 mb-3">Rest assured. A real human specialist will assist you at every step of the process.</p>
+              <hr>
+              <div class="row g-3 g-md-5 mb-4">
+                <div class="col-md-6 col-lg-4">
+                  <span class="fs-2 lh-1 fw-bold">20</span>
+                  <p class="d-block text-muted fs-lg mt-1"> <span class="text-white">Businesses connected</span></p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <span class="fs-2 lh-1 fw-bold">$50K - $2M</span>
+                  <p class="d-block text-muted fs-lg mt-1"><span class="text-white">Financing Range</span></p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <span class="fs-2 lh-1 fw-bold">97%</span>
+                  <p class="d-block text-muted fs-lg mt-1"><span class="text-white">Approval rate</span></p>
+                </div>
+              </div>
+              <hr>
+              <p class="fs-5 mt-4">Large financing above $500,000 are not mentioned in our daily count.</p>
             </div>
           </div>
         </div>
@@ -96,7 +112,8 @@ include './components/navbar.php';
         <div class="container">
           <div class="row mb-5">
             <div class="col-12 text-center">
-              <h2 class="fw-bold">Financial Products</h2>
+              <h2 class="fw-bold">Frequently Asked Questions</h2>
+              <p>Most of you had a similar set of questions and we felt it is important to answer them beforehand</p>
             </div>
           </div>
           <div class="row g-3 g-xl-5">
@@ -107,22 +124,12 @@ include './components/navbar.php';
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading-1-1">
                         <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
-                          Working Capital 
+                        What is fund finder program?
                         </button>
                       </h2>
                       <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1" data-bs-parent="#accordion-1" style="">
                         <div class="accordion-body">
-                          <ul>
-                            <li>Unsecured business</li>
-                            <li>Lines of credit</li>
-                            <li>Merchant cash</li>
-                            <li>Advances</li>
-                            <li>Custom working capital</li>
-                            <li>Solutions</li>
-                            <li>Business term loan</li>
-                            <li>Bridge loans</li>
-                            <li>Debt restructuring</li>
-                          </ul>
+                          <p>The fund finder program is an information based program we connect business owners and borrowers the best solutions for your business at your advantage .</p>
                         </div>
                       </div>
                     </div>
@@ -131,19 +138,12 @@ include './components/navbar.php';
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading-1-2">
                         <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
-                          Equipments 
+                        Who are your lenders?
                         </button>
                       </h2>
                       <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2" data-bs-parent="#accordion-1" style="">
                         <div class="accordion-body">
-                          <ul>
-                            <li>Equipments leasing</li>
-                            <li>Equipments loan</li>
-                            <li>Sales-leaseback</li>
-                            <li>New and used equipment</li>
-                            <li>Refinance</li>
-                            <li>Cash out</li>
-                          </ul>
+                          <p>We receive your brief & review it. we manually verify them and get a general idea of the business status and we connect you to the best lender that fits your request.</p>
                         </div>
                       </div>
                     </div>
@@ -152,21 +152,12 @@ include './components/navbar.php';
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading-1-3">
                         <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                          Commercial Real Estate  
+                        Do we verify verify credit?
                         </button>
                       </h2>
                       <div id="collapse-1-3" class="accordion-collapse collapse" aria-labelledby="heading-1-3" data-bs-parent="#accordion-1" style="">
                         <div class="accordion-body">
-                          <ul>
-                            <li>Acquisition financing</li>
-                            <li>Fix and flip financing</li>
-                            <li>Stated income loan</li>
-                            <li>Hard money loan</li>
-                            <li>Bridge loan</li>
-                            <li>Construction and development financing</li>
-                            <li>Distress note acquisition</li>
-                            <li>CMBS Loan</li>
-                          </ul>
+                          <p>We do not pull or create an inquiry credit check.</p>
                         </div>
                       </div>
                     </div>
@@ -175,112 +166,16 @@ include './components/navbar.php';
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading-1-4">
                         <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
-                          Asset Based Lending 
+                        What kind of financing can we connect you to?
                         </button>
                       </h2>
                       <div id="collapse-1-4" class="accordion-collapse collapse" aria-labelledby="heading-1-4" data-bs-parent="#accordion-1" style="">
                         <div class="accordion-body">
-                          <ul>
-                            <li>Account receivable factoring</li>
-                            <li>Equipments Loans</li>
-                            <li>Sales-leaseback financing</li>
-                            <li>Account receivable Loans</li>
-                            <li>Inventory Loans</li>
-                            <li>Intellectual property</li>
-                            <li>Repossessed Assets</li>
-                          </ul>
+                          <p>We specialize in helping your business, so we always make a more personalized offer that is to your advantage, (Retail, Lands, Building, Equipment, E-commerce, more..)</p>
                         </div>
                       </div>
                     </div>
 
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="heading-1-5">
-                        <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-5" aria-expanded="false" aria-controls="collapse-1-5">
-                          Healthcare and Specialised
-                        </button>
-                      </h2>
-                      <div id="collapse-1-5" class="accordion-collapse collapse" aria-labelledby="heading-1-5" data-bs-parent="#accordion-1" style="">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>Healthcare financing</li>
-                            <li>Customer programs</li>
-                            <li>Credit card processing</li>
-                            <li>Credit card repair</li>
-                            <li>Structured Warehouse</li>
-                            <li>USDA B& I Loans</li>
-                            <li>Sports and entertainment contract</li>
-                            <li>Settlement and annuity</li>
-                            <li>Energy and commodity</li>
-                            <li>Used Aircraft</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="heading-1-6">
-                        <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-6" aria-expanded="false" aria-controls="collapse-1-6">
-                          Supply Chain  
-                        </button>
-                      </h2>
-                      <div id="collapse-1-6" class="accordion-collapse collapse" aria-labelledby="heading-1-6" data-bs-parent="#accordion-1" style="">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>Purchase order financing</li>
-                            <li>Trade financing</li>
-                            <li>Fintech supply chain</li>
-                            <li>Contract financing</li>
-                            <li>Large project financing</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="heading-1-7">
-                        <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-7" aria-expanded="false" aria-controls="collapse-1-7">
-                          Mergers and Acquisition 
-                        </button>
-                      </h2>
-                      <div id="collapse-1-7" class="accordion-collapse collapse" aria-labelledby="heading-1-7" data-bs-parent="#accordion-1" style="">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>Leverage buyout</li>
-                            <li>Business acquisition financing</li>
-                            <li>Joint venture financing</li>
-                            <li>Recapitalization</li>
-                            <li>Mezzanine financing</li>
-                            <li>Self-side buying sourcing</li>
-                            <li>Buy-side deal sourcing</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="heading-1-1">
-                        <button class="accordion-button lead collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
-                          Small Business 
-                        </button>
-                      </h2>
-                      <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1" data-bs-parent="#accordion-1" style="">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>Unsecured credit lines</li>
-                            <li>Franchise financing</li>
-                            <li>SBA 7(a) Loans</li>
-                            <li>SAB 504 Loans</li>
-                            <li>Revenue Financing</li>
-                            <li>401(k)/IRA Financing</li>
-                            <li>Business term Loans</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -289,16 +184,17 @@ include './components/navbar.php';
         </div>
       </section>
 
+
       <section class="bg-black mx-xl-3 py-15 py-xl-20 inverted overflow-hidden">
         <div class="container level-1">
           <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-6 text-center">
-              <h2 class="mb-5">Access funding globally for your business.</h2>
+              <h2 class="mb-5">Get the financing for your business.</h2>
               <a href="register" class="btn btn-with-icon btn-yellow">Get Started <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <figure class="background background-dimm background-parallax skrollable skrollable-between" style="background-image: url('assets/images/pic3.jpg'); transform: translateY(9.19386%);" data-bottom-top="transform: translateY(0%);" data-top-bottom="transform: translateY(20%);">
+        <figure class="background background-dimm background-parallax skrollable skrollable-between" style="background-image: url('assets/images/coworking-2.jpeg'); transform: translateY(9.19386%);" data-bottom-top="transform: translateY(0%);" data-top-bottom="transform: translateY(20%);">
         </figure>
       </section>
 
