@@ -7,31 +7,40 @@ include './components/navbar.php';
       data-edge-strategy="reset">
       <span class="bg-color bg-black"></span>
 
-      <section class="overflow-hidden bg-black inverted">
-        <div class="d-flex flex-column container py-20 min-vh-100 level-1">
-          <div class="row align-items-center justify-content-center justify-content-lg-end my-auto">
-            <div class="col-md-8 col-lg-5 text-center text-lg-start">
-              <span class="badge bg-opaque-yellow text-yellow rounded-pill">North American Strategy Consulting Ltd</span>
-              <h1 class="display-2 fw-bold lh-sm my-2 my-xl-4">Access funding Globally</h1>
-              <a href="register" class="btn btn-with-icon btn-yellow">Get Started <i
-                  class="bi bi-arrow-right"></i>
-              </a>
-              <a href="login" class="btn btn-with-icon btn-outline-yellow">Login 
-                <i class="bi bi-box-arrow-in-right"></i>
-              </a>
+      <section class="inverted overflow-hidden position-relative" data-top-top="background-color: rgba(44,73,244,1)" data-top-center="background-color: rgba(235,60,39,1)" data-top-bottom="background-color: rgba(44,73,244,1)">
+        <div class="container d-flex flex-column foreground min-vh-100">
+          <div class="row align-items-center justify-content-center my-auto">
+            <div class="col-lg-10 text-center">
+              <span class="eyebrow text-secondary mb-2">North American Strategy Consulting Ltd</span>
+              <h1 class="display-1 fw-bold">Get Funding for your <br>Business.</h1>
+              <a href="register" class="btn btn-white rounded-pill">Get Started</a>
             </div>
           </div>
         </div>
-        <div class="container-fluid back back-background">
-          <div class="row h-100">
-            <div class="col-lg-6" data-aos="fade-in">
-              <figure class="background" style="background-image: url('https://i.imgur.com/uPU6Rf1.jpg')"
-                data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(10%);"></figure>
-            </div>
-          </div>
-        </div>
+        <figure class="background">
+          <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle data-aos="fade-up" data-aos-delay="150" cx="125%" cy="-25%" r="35%" fill="white" fill-opacity=".05"
+              data-top-top="@cy: -25%; @cx: 115%;" data-top-bottom="@cy: 0%; @cx: 105%;" />
+            <circle data-aos="fade-up" data-aos-delay="300" cx="90%" cy="125%" r="75%" fill="black" fill-opacity=".1"
+              data-center-top="@r: 75%;" data-top-bottom="@r: 85%;" />
+            <circle data-aos="fade-up" data-aos-delay="450" cx="5%" cy="125%" r="50%" stroke="black" stroke-opacity=".2"
+              data-center-top="@r: 50%;" data-center-bottom="@r: 70%;" />
+          </svg>
+        </figure>
+        <span class="scroll-down"></span>
       </section>
-    </div>    
+    </div>
+
+    <section class="py-15 py-xl-20">
+      <div class="container">
+        <div class="row mb-10">
+          <div class="col-lg-10">
+            <span class="eyebrow text-primary mb-4">About Us</span>
+            <h3 class="fs-4">We connect you to the right lender combine personal and online underwriting to make sure we can help every single business owner.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
       <section class="py-15 py-xl-20">
         <div class="container">
